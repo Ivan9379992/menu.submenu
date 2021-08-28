@@ -1,0 +1,44 @@
+.menu{
+    display: flex;
+    list-style: none;
+    background-color: yellow;
+}
+
+.menu-item{
+    position: relative;
+    margin-right: 30px;
+    padding: 0;
+    background-color: tomato;
+    outline: 2px solid black;
+}
+.menu-item:hover .submenu{
+    display: block;
+}
+
+.menu-link{
+
+}
+
+.submenu{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    outline: 2px solid blue;
+    padding-left: 0;
+    display: none;
+    background-color: #ccc;
+    
+}
+
+.submenu-item{
+    padding: 0;
+
+
+}
+
+.submenu-link{
+
+}
